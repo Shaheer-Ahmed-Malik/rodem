@@ -2,6 +2,13 @@ import React from "react";
 import Link from "next/link";
 import Header from "./components/Header";
 import Image from "next/image";
+import { Cinzel_Decorative } from "next/font/google";
+
+const tertiary = Cinzel_Decorative({
+  weight:["400"],
+  subsets:["latin"],
+});
+
 
 export default function home() {
   // project
@@ -42,9 +49,6 @@ export default function home() {
   ];
   // project end
 
-
-
-
   return (
     <div>
       {/* main interface */}
@@ -58,8 +62,8 @@ export default function home() {
         />
         <div className="absolute inset-0 z-20">
           <Header />
-          <h1 className="absolute -z-10 inset-0 h-screen flex items-center justify-center text-center text-5xl mb-4 font-tertiary">
-          &quot;Brings Your Vision to Life with Innovative Solutions.&quot;
+          <h1 className={`absolute -z-10 inset-0 h-screen flex items-center justify-center text-center text-5xl mb-4 ${tertiary.className}`}>
+            &quot;Brings Your Vision to Life with Innovative Solutions.&quot;
           </h1>
         </div>
       </div>

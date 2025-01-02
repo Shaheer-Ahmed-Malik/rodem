@@ -2,16 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "./components/Footer";
 import { Poppins } from "next/font/google"
-import { Cinzel_Decorative } from "next/font/google";
 
 const primary = Poppins({
   weight: ["100","200","300","400","500","600","700"],
   subsets: ["latin"],
-});
-
-const tertiary = Cinzel_Decorative({
-  weight:["400"],
-  subsets:["latin"],
 });
 
 export const metadata: Metadata = {
