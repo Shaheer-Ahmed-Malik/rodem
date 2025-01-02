@@ -8,6 +8,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        primary: ['Poppins', 'sans-serif'],
+        secondary: ['Roboto', 'sans-serif'],
+        tertiary: ['Cinzel Decorative', 'serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
