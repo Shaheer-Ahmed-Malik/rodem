@@ -5,13 +5,17 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className='text-white'>
-      <div className='bg-black p-20'>
+      <div className='bg-black p-8 md:p-20'>
+
+        {/* image */}
         <div>
           <Image src="/3.png" alt="" height={200} width={200}
           className='mb-6' />
         </div>
-        <div className='md:flex justify-between font-extralight'>
-          <div className='p-2 space-y-4'>
+        {/* remaining */}
+        <div className='p-4 md:p-0'>
+        <div className='md:flex justify-between space-y-12 font-extralight'>
+          <div className='md:p-2 space-y-4'>
             <div>
               <h2 className='text-2xl font-semibold mb-2'>Location</h2>
               <p className='font-light text-lg'>Jinnah Avenue Karachi</p>
@@ -29,6 +33,7 @@ const Footer = () => {
               <li><Link href="#">Instagram</Link></li>
             </ul>
           </div>
+
           <div>
             <h2 className='text-lg font-medium mb-4'>Navigate</h2>
             <ul className='space-y-3'>
@@ -38,8 +43,9 @@ const Footer = () => {
               <li><Link href="#">Contact us</Link></li>
             </ul>
           </div>
+
           <div>
-            <h2 className='mb-2 text-medium font-normal'>&quot;Get our Latest insight&quot;</h2>
+            <h2 className='mb-2 text-medium font-normal'>&quote;Get our Latest insight&quote;</h2>
             <div className='p-2 rounded-full bg-white'>
               <input 
               type="text"
@@ -48,7 +54,10 @@ const Footer = () => {
               <button className='rounded-full h-10 w-28 font-medium bg-gray-800'>Subscribe</button>
             </div>
           </div>
+
         </div>
+        </div>
+        
       </div>
 
 
