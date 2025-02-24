@@ -45,13 +45,13 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className='mb-2 text-medium font-normal'>&quote;Get our Latest insight&quote;</h2>
-            <div className='p-2 rounded-full bg-white'>
+            <h2 className='mb-2 text-medium font-normal'>&quot;Get our Latest insight&quot;</h2>
+            <div className='flex p-1 rounded-full bg-white justify-between items-center '>
               <input 
               type="text"
               placeholder="  example@email.com"
               className='rounded-full h-10 border-none  text-black' />
-              <button className='rounded-full h-10 w-28 font-medium bg-gray-800'>Subscribe</button>
+              <button className='rounded-full h-12 p-2  md:w-28 font-medium bg-gray-800'>Subscribe</button>
             </div>
           </div>
 

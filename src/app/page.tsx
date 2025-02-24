@@ -72,35 +72,35 @@ export default function Home() {
   // project
   const projects = [
     {
-      title: "Devsoll",
+      title: "Bandage",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae nesciunt dicta distinctio id omnis?",
+        "Custom E-commerce Platform using Next.js Typescript and Tailwind Meets the needs of our client",
       bgColor: "bg-slate-500",
-      imageSrc: "/image1.png", // Add the image source
+      imageSrc: "/custom -ecommerce-website.jpg", // Add the image source
       imageAlt: "Devsoll Image", // Add the image alt text
     },
     {
-      title: "Project 2",
+      title: "Edvora",
       description:
         "Another great project showcasing our skills in development and design.",
       bgColor: "bg-green-500",
-      imageSrc: "/image2.png", // Add the image source
+      imageSrc: "/Edvora2.jpg", // Add the image source
       imageAlt: "Project 2 Image", // Add the image alt text
     },
     {
-      title: "Project 3",
+      title: "Manzzari",
       description:
-        "A unique project designed to meet the specific needs of our client.",
+        "Designed the complete UI, brand guidelines, and logo for a luxury jewelry website, ensuring a sophisticated and timeless brand identity that reflects elegance and exclusivity",
       bgColor: "bg-blue-500",
-      imageSrc: "/image3.png", // Add the image source
-      imageAlt: "Project 3 Image", // Add the image alt text
+      imageSrc: "/Jewelry-website.jpg", // Add the image source
+      imageAlt: "Jewelry-website.jpg", // Add the image alt text
     },
     {
       title: "Devsoll",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae nesciunt dicta distinctio id omnis?",
+        "Designed the UI, brand guidelines, and logo for DevSoll, ensuring a modern and cohesive brand identity.",
       bgColor: "bg-slate-500",
-      imageSrc: "/image1.png", // Add the image source
+      imageSrc: "/devsoll.png", // Add the image source
       imageAlt: "Devsoll Image", // Add the image alt text
     },
     // Add more projects here
@@ -241,10 +241,10 @@ export default function Home() {
             <p>happy clients</p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-3">
-            <h1 className="text-5xl font-semibold animate-count-up" data-target="100">
+            <h1 className="text-5xl font-semibold animate-count-up" data-target="9">
               0+
             </h1>
-            <p>quality oriented</p>
+            <p>High-End Projects</p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-3">
             <h1 className="text-5xl font-semibold animate-count-up" data-target="14">
