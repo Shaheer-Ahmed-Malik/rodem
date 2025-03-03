@@ -9,7 +9,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 export default function home(){
   return(
     <div>
-    <div className="flex justify-between items-center p-8 px-10 z-20">
+    <div className="flex justify-between items-center p-4 pr-6 md:p-8 md:px-10 z-20">
       <div>
         <Image
         src="/3.png"
@@ -17,7 +17,7 @@ export default function home(){
         height={175}
         width={175} />
       </div>
-      <RxHamburgerMenu  className="block md:hidden"/>
+      <RxHamburgerMenu  className="block text-3xl md:hidden"/>
       <div className="hidden md:block">
       <ul className="flex space-x-8">
         

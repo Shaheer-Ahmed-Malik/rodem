@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className='text-white'>
-      <div className='bg-black p-8 md:p-20'>
+      <div className='bg-black p-4 md:p-20'>
 
         {/* image */}
         <div>
@@ -51,7 +51,7 @@ const Footer = () => {
               type="text"
               placeholder="  example@email.com"
               className='rounded-full h-10 border-none w-48  text-black' />
-              <button className='rounded-full h-12 p-2  md:w-28 font-medium bg-gray-800'>Subscribe</button>
+              <button className='rounded-full h-12 p-2 md:w-28 font-medium bg-gray-800'>Subscribe</button>
             </div>
           </div>
 

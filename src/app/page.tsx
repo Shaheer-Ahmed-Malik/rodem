@@ -214,10 +214,10 @@ export default function Home() {
       {/* achievement */}
       <div
         ref={achievementSectionRef}
-        className="md:h-screen flex flex-col md:flex-row p-10 pb-20 md:p-28 justify-center md:justify-between items-center space-y-20 md:space-y-0 "
+        className="h-screen flex flex-col md:flex-row p-10 pb-20 md:p-28 justify-center md:justify-between items-center space-y-20 md:space-y-0 "
       >
-        <div className="space-y-10 md:w-[485] flex flex-col justify-center items-center">
-          <h1 className="text-5xl font-semibold leading-relaxed">
+        <div className="space-y-10 md:w-[485px] flex flex-col justify-center items-center">
+          <h1 className="text-4xl  md:text-5xl font-semibold leading-loose md:leading-relaxed">
             Driving Success Through Innovation
           </h1>
           <p>
