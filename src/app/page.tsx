@@ -130,9 +130,11 @@ export default function Home() {
       {/* services */}
       <div className="p-10 md:p-28 space-y-6">
         <div className="text-center md:text-left space-y-4">
-          <h1 className="text-4xl">Services</h1>
+          <h1 className="text-4xl ">Services</h1>
           <p>
             <Link href="/">View all services</Link>
+            <span className="absolute bottom-[-5px] left-0 w-full h-[2px] bg-white scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
+
           </p>
         </div>
         <div className="md:flex justify-between items-center gap-16">
@@ -140,35 +142,37 @@ export default function Home() {
             <div className="py-6 space-y-2 border-b-2">
               <h1 className="text-2xl font-medium">Branding</h1>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
-                in?
+                Crafting professional brand identities that strengthen trust and recognition.
               </p>
             </div>
             <div className="py-6 space-y-2 border-b-2">
               <h1 className="text-2xl font-medium">UI/UX Design</h1>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
-                in?
+                Designing intuitive interfaces that enhance user experience and retention.
+              </p>
+            </div>
+            <div className="py-6 space-y-2 border-b-2">
+              <h1 className="text-2xl font-medium">AI and Custom Chatbot</h1>
+              <p>
+                Automate customer interactions 24/7, capture leads, and streamline support professionally
               </p>
             </div>
             <div className="py-6 space-y-2 border-b-2">
               <h1 className="text-2xl font-medium">Web Development</h1>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
-                in?
+                Building responsive, high-performance websites that drive engagement and conversions.
               </p>
             </div>
             <div className="py-6 space-y-2 border-b-2">
               <h1 className="text-2xl font-medium">
-                Mobile Application development
+                Mobile App development
               </h1>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
-                in?
+                Developing seamless mobile applications tailored to your business needs.
               </p>
             </div>
           </div>
-          <div className="text-6xl flex items-center justify-center">
+          <div className="text-6xl flex items-center justify-center hover:scale-110 transition duration-300">
             <Image src="/image 1.svg" alt="" width={500} height={500} />
           </div>
         </div>
@@ -189,7 +193,7 @@ export default function Home() {
             >
               {/* Image */}
               <div
-                className={`${project.bgColor} w-[350px] md:w-[440px] aspect-[3/2] rounded-lg ${
+                className={`${project.bgColor} w-[350px] md:w-[440px] aspect-[3/2] rounded-lg hover:scale-105 hover: transition duration-500  ${
                   index % 2 === 1 ? "md:order-last" : ""
                 }`}
               >
@@ -209,6 +213,11 @@ export default function Home() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="pt-10 flex justify-center">
+          <button className="hover:scale-105 hover:bg-black hover:text-white duration-300 rounded-full h-14 w-60 mt-4 font-semibold">
+            View all projects
+          </button>
         </div>
       </div>
       {/* achievement */}

@@ -9,7 +9,7 @@ const Footer = () => {
 
         {/* image */}
         <div>
-          <Image src="/3.png" alt="" height={200} width={200}
+          <Image src="/logo.png" alt="" height={200} width={200}
           className='mb-6' />
         </div>
         {/* remaining */}
@@ -28,9 +28,9 @@ const Footer = () => {
           <div>
             <h2 className='text-lg font-medium mb-4'>Stay Connected</h2>
             <ul className='space-y-5'>
-              <li><Link href="#">linkedIn</Link></li>
-              <li><Link href="#">Facebook</Link></li>
-              <li><Link href="#">Instagram</Link></li>
+              <li><Link href="https://www.linkedin.com/company/rodem-limited">linkedIn</Link></li>
+              <li><Link href="https://www.facebook.com/rodemlimited/">Facebook</Link></li>
+              <li><Link href="https://www.instagram.com/rodemlimited/">Instagram</Link></li>
             </ul>
           </div>
 
